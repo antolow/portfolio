@@ -1,2 +1,94 @@
-* {box-sizing: border-box;}
-body {font-family: 'Roboto', sans-serif;}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.42;
+    font-size: 16px;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+ul,
+il {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+.wrapper {
+    height: 100vh;
+}
+
+.container {
+    max-width: 865px;
+    margin: 0 auto;
+    padding: 0 5px;
+}
+
+.header__container {
+    max-height: 1035px;
+    
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav__list {
+    display: flex;
+}
+
+.nav__item {
+    margin-left: 33px;
+  
+}
+
+.about__container {
+    display: flex;
+    margin-top: 153px;
+}
+
+.about__info-title{
+    font-size: 44px;;
+}
+
+.about__info-main {
+    font-size: 16px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.about__download{
+    color: azure;
+    background-color: #FF6464;
+    width: 208px;
+    height: 47px;
+    border-radius: 2px;
+    border: 0;
+    text-align: 20px;
+}
+.about__img {
+    border-radius: 50%;
+    height: 243px;
+    width: 243px;
+    margin-left: 110px;
+}
