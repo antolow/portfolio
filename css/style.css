@@ -105,20 +105,48 @@ h3 {
 
 .recent-posts {
  background-color: #EDF7FA;
- max-height: 396px;
-max-width: 1152px;
-
+ padding: 27px 0px 37px;
 
 }
+
 .recent-posts__top {
-    display: flex;
-justify-content: center;
+display: flex;
+justify-content: space-between;
+margin-bottom: 22px;
+
 }
 
+.recent-posts__main {
+display: flex;
+}
+
+.recent-posts__article {
+  
+    margin-right: 2%;
+    background-color: #fff;
+    padding: 24px 27px 7px 23px;
+    color: #21243D;
+}
+
+.recent-posts__article:last-child {
+    margin-right: 0%;
+}
 .recent-posts__container {
     display: flex;
-  align-items: center;
+ 
 }
 .recent-posts__subtitle {
     font-style: bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.recent-post__info{
+    margin-bottom: 14px;
+}
+
+.recent-posts__separator {
+    margin-left: 26px;
+    margin-right: 26px;
 }
