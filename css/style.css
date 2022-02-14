@@ -34,7 +34,7 @@ h3 {
     margin: 0;
 }
 .wrapper {
-    height: 100vh;
+    min-height: 100%;
 }
 
 .container {
@@ -71,7 +71,9 @@ h3 {
     font-size: 44px;
     font-weight: 500;
 }
-
+.about__info {
+    padding-right: 13%;
+}
 .about__info-main {
     font-size: 16px;
     margin-top: 40px;
@@ -99,4 +101,24 @@ h3 {
     flex-shrink: 0;
     width: 243px;
     height: 243px;
+}
+
+.recent-posts {
+ background-color: #EDF7FA;
+ max-height: 396px;
+max-width: 1152px;
+
+
+}
+.recent-posts__top {
+    display: flex;
+justify-content: center;
+}
+
+.recent-posts__container {
+    display: flex;
+  align-items: center;
+}
+.recent-posts__subtitle {
+    font-style: bold;
 }
