@@ -46,12 +46,11 @@ h3 {
 
 .header__container {
     max-height: 1035px;
-
+    justify-content: flex-end;
 }
 
 .nav {
     display: flex;
-    justify-content: flex-end;
 }
 
 .nav__list {
@@ -61,6 +60,56 @@ h3 {
 .nav__item {
     margin-left: 33px;
     font-weight: 500;
+}
+
+.header-burger {
+    width: 30px;
+    height: 20px;
+    display: none;
+    align-items: center;
+    margin-right: 18px;
+}
+
+.header-burger__el {
+    height: 2px;
+    width: 100%;
+    background-color: #21243D;
+    position: relative;
+}
+
+.header-burger__el::before,
+.header-burger__el::after {
+    height: 2px;
+    width: 100%;
+    background-color: #21243D; 
+    position: absolute;
+    content: "";
+}
+
+.header-burger__el::after{
+     bottom: -9px; 
+}
+
+.header-burger__el::before {
+    top: -9px;
+}
+
+@media (max-width: 480px) {
+    .header {
+        padding-top: 20px;
+       
+    }
+    .nav {
+        display: none;
+    }
+    .header-burger {
+        display: flex;
+        
+    }
+    .header__container {
+        display: flex;
+    justify-content: flex-end;
+    }
 }
 
 .about__container {
