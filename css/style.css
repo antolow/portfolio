@@ -36,6 +36,7 @@ h3 {
 
 .wrapper {
     min-height: 100%;
+    overflow: hidden;
 }
 
 .container {
@@ -112,9 +113,12 @@ h3 {
     }
 }
 
+.about {
+    padding-top: 140px;
+}
+
 .about__container {
     display: flex;
-    margin-top: 153px;
 }
 
 .about__info-title {
@@ -155,6 +159,29 @@ h3 {
     flex-shrink: 0;
     width: 243px;
     height: 243px;
+  
+}
+
+@media (max-width: 480px) {
+    .about__container {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+    .about__info {
+        padding-right: 0;
+          padding: 0px 19px;
+    }
+
+    .about__avatar {
+        width: 170px;
+        height: 170px;
+    }
+
+    .about {
+        padding-top: 30px;
+    }
+    
 }
 
 .recent-posts {
@@ -186,6 +213,11 @@ h3 {
     margin-right: 0%;
 }
 
+.recent-posts__link {
+    font-size: 15px;
+    color: aquamarine;
+}
+
 .recent-posts__subtitle {
     font-style: normal;
     font-weight: bold;
@@ -201,6 +233,36 @@ h3 {
 .recent-posts__separator {
     margin-left: 26px;
     margin-right: 26px;
+}
+
+@media (max-width: 480px) {
+
+   .recent-posts__title{
+        font-size: 18px;
+   }
+
+    .recent-posts__top {
+        justify-content: center;
+        margin-bottom: 19px;
+       
+    } 
+    .recent-posts__link {
+        display: none;
+    }
+
+    .recent-posts__main {
+        flex-direction: column;
+        padding-right: 5px;
+       padding-left: 5px;
+    }
+
+    .recent-posts__article {
+        margin-right: 0;
+        padding: 15px 20px 22px;
+        margin-bottom: 17px;
+    }
+    
+
 }
 
 .title-category {
