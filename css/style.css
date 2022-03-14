@@ -25,7 +25,7 @@ il {
 
 a {
     text-decoration: none;
-    color: #000;
+    color:#21243D;
 }
 
 h1,
@@ -47,7 +47,9 @@ h3 {
 
 .header__container {
     max-height: 1035px;
+    display: flex;
     justify-content: flex-end;
+    margin-top: 34px;
 }
 
 .nav {
@@ -215,7 +217,7 @@ h3 {
 
 .recent-posts__link {
     font-size: 15px;
-    color: aquamarine;
+    color: #00A8CC;
 }
 
 .recent-posts__subtitle {
@@ -266,7 +268,6 @@ h3 {
 }
 
 .title-category {
-    margin-bottom: 25px;
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
@@ -275,7 +276,7 @@ h3 {
 }
 
 .work {
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #E0E0E0;
     padding-top: 32px;
     padding-bottom: 32px;
     display: flex;
@@ -318,7 +319,39 @@ h3 {
     color: #fff;
     padding-right: 10px;
     padding-left: 10px;
+    margin-right: 28px;
+    margin-bottom: 27px;
+}
 
+@media (max-width:480px) {
+    .featured__works{
+        display: flex;
+        overflow: auto;
+         width: 100%;
+         padding-left: 13px;
+         padding-right: 13px;
+
+    }
+
+    .work {
+        flex-direction: column;
+        width: 100%;
+        flex: 0 0 100%;
+         margin-right: 18px;
+
+    }
+    .work:last-child {
+        margin-right: 0;
+    }
+    .work__img-wrap {
+        display: flex;
+        max-width:100%;
+        flex-shrink: 0;
+        border-radius: 6px;
+        overflow: hidden;
+       
+    }
+    
 }
 
 .work__date-block {
@@ -328,13 +361,16 @@ h3 {
 .work__category {
     font-size: 20px;
     color: #8695A4;
-
 }
 
 .work__text {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
+}
+
+.footer {
+    padding: 50px 0px
 }
 
 .footer-container {
@@ -348,10 +384,9 @@ h3 {
 }
 
 .footer__img {
-    margin-bottom: 30px;
     margin-right: 35px;
-    margin-top: 100px;
 }
+
 
 .social {
     height: 30px;
