@@ -395,3 +395,56 @@ h3 {
 
 }
 
+
+.blog {
+    padding: 27px 0px 37px;
+}
+
+.blog__title {
+    margin-left: 25px;
+}
+
+.blog__top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 21px;
+
+}
+
+
+.blog__article {
+    margin-right: 2%;
+    background-color: #fff;
+    padding: 24px 27px 7px 23px;
+   
+}
+
+.blog__text {
+    border-bottom: 1px solid #E0E0E0;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.blog__link {
+    font-size: 15px;
+}
+
+.blog__subtitle {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.46;
+    margin-bottom: 17px;
+}
+
+.blog__info {
+    margin-bottom: 14px;
+}
+
+.blog__separator {
+    margin-left: 26px;
+    margin-right: 26px;
+}
+
+
+
