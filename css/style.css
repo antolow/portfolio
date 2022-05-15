@@ -330,7 +330,7 @@ h3 {
          width: 100%;
          padding-left: 13px;
          padding-right: 13px;
-
+        flex-direction: column;
     }
 
     .work {
@@ -351,6 +351,7 @@ h3 {
         overflow: hidden;
        
     }
+    
     
 }
 
